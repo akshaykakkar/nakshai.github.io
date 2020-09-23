@@ -119,6 +119,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
 }
 
+.header-dark{background:#2E6FAD;}
+
 #header.header-scrolled, #header.header-inner-pages {
   background: #2D76BA;
   padding: 12px 0;

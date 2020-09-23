@@ -8,13 +8,13 @@
   "use strict";
 
   // Preloader
-  $(window).on('load', function() {
+  /*$(window).on('load', function() {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
         $(this).remove();
       });
     }
-  });
+  });*/
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
@@ -116,7 +116,7 @@
   });
 
   // Toggle .header-scrolled class to #header when page is scrolled
-  $(window).scroll(function() {
+  /*$(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
     } else {
@@ -126,10 +126,10 @@
 
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
-  }
+  }*/
 
   // Back to top button
-  $(window).scroll(function() {
+  /*$(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
     } else {
@@ -142,7 +142,7 @@
       scrollTop: 0
     }, 1500, 'easeInOutExpo');
     return false;
-  });
+  });*/
 
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
