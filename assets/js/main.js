@@ -93,7 +93,7 @@
   }
 
   // Navigation active state on scroll
-  var nav_sections = $('section');
+  /*var nav_sections = $('section');
   var main_nav = $('.nav-menu, #mobile-nav');
 
   $(window).on('scroll', function() {
@@ -113,7 +113,7 @@
         $(".nav-menu ul:first li:first").addClass('active');
       }
     });
-  });
+  });*/
 
   // Toggle .header-scrolled class to #header when page is scrolled
   /*$(window).scroll(function() {
