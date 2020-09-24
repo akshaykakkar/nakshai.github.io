@@ -22,6 +22,8 @@
 	font-weight: 500;
 	margin-bottom: 20px;
 	font-size: 20px;
+	margin-top: 20px;
+
 }
 .orb-features p {
 	color: #666;
@@ -33,7 +35,7 @@
 	background: transparent;
 	min-height: 260px;
 }
-.orb-features i.bxl-dribbble{color:#2D76BA; font-size:60px; padding-bottom: 20px;}
+.orb-features i.bxl-dribbble{color:#633ea5; font-size:60px; padding-bottom: 20px;}
 .orb-features .innerBox:hover {
 	box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
 	background: #fafafa;
